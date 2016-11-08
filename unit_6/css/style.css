@@ -23,18 +23,30 @@ nav {
     padding: 10px;
 }
 
-a {    
+nav a {    
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    font-size: 14px;
+    font-size: 18px;
     color: white;
     text-decoration: none;
     display: block;
     float: left;
     padding: 10px;
     text-align: center;
+    border: white;
+
 }
 
+a {    
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border: px solid white;
+
+}
 a:hover {
     background-color: grey;
 }
