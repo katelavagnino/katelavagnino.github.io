@@ -11,9 +11,68 @@ header {
 #myMenu
 {
     text-align: center;
-    height: 600px;
+    height: 640px;
+    background-size: 100% auto;
     background-image: url('../images/dragon.jpg');
     background-repeat: no-repeat;
+}
+
+#myImages {
+    padding: 10px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    position: relative;
+    top: 55px;
+}
+
+h2 {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color:#808080;
+    line-height: 1.2em;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 80;
+    line-height: 1.2em;
+    color:#808080;
+    text-align: center;
+    padding: 0;
+}
+
+video {
+    display: inline-block;
+    text-align: center;
+}
+
+.images {
+    display: inline-block;
+    text-align: center;
+}
+
+.logos {
+    display: inline-block;
+    align-items: left;
 }
 
 nav {
@@ -23,7 +82,7 @@ nav {
     display: inline-block;
     text-align: center;
     height: 70px;
-    width: 600px;
+    width: 480px;
     margin: 0 auto;
 }
 
@@ -37,25 +96,9 @@ nav a {
     padding: 10px;
     text-align: center;
     border: white;
-
-}
-
-a {    
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid white;
-    border-color: white;
     width: 100px;
+}
 
-}
-a:hover {
-    background-color: grey;
-}
 aside {    
     padding: 20px;
     height: 207px;
@@ -102,30 +145,6 @@ section {
     padding: 20px;
 }
 
-h1 {
-    font-family: 'Archivo Black', sans-serif;
-    font-weight: 900;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 50px;
-    position: relative;
-    top: 55px;
-}
-
-h2 {
-    font-family: 'Maven Pro', sans-serif;
-    font-weight: 200;
-    color: white;
-    text-align: center;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    color:#808080;
-}
-
 #slogan {
     font-family: 'Maven Pro', sans-serif;
     font-weight: 800;
@@ -148,8 +167,40 @@ p {
     margin: 0 auto;
     position: relative;
     top: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-color: white;
+    width: 100px;
 }
 
 .button1 {
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-color: white;
+    width: 100px;
+}
+
+nav a:hover {
+    background-color: grey;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+.button1:hover {
+    background-color: grey;
 }

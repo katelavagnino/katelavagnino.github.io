@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Kate Lavagnino Portfolio</title>
+  <!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+      /*
+       *  Simple image gallery. Uses default settings
+       */
+
+      $('.fancybox').fancybox();
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <style type="text/css">
+    .fancybox-custom .fancybox-skin {
+      box-shadow: 0 0 50px #222;
+    }
+  </style>
+</head>
+<body>
+	<div id="myMenu">
+	<nav class="clearfix">
+		<a class="nav-link" href="#"> bio</a> 
+		<a class="nav-link" href="#"> portfolio</a> 
+		<a class="logo-link" href="#"> <img src="images/kl-logo.png" alt="kate lavagnino logo" title="kate lavagnino logo"></a> 
+		<a class="nav-link" href="#"> stuff i know</a> 
+		<a class="nav-link" href="#"> contact</a>
+	</nav> 
+	<header>
+		<h1>kate lavagnino</h1>
+		<p id="slogan">3D modeling &#9679; texturing &#9679; graphic design</p>
+		<a class="button" href="#"> portfolio</a>
+	</header>
+	</div>
+	<section id="two_column" class="clearfix">
+		<h2>bio</h2>
+		<aside id="left">
+		<img src="images/portait.jpg" alt="kate lavagnino portait" title="kate lavagnino portait">
+		</aside>
+		<article id="right">
+   		<p>I'm a NY-based 3D artist and graphic designer with 5 years of industry experience. I specialize in photoreal 3D modeling, texturing and graphic design but have worn many hats over the years. I completed Masters of Science degree program in Digital Imaging and Design, New York University and was a recipient of "Digital Imaging and Design Award for Excellence". I graduated Volgograd State Pedagogical University, Russia, with a Bachelor of Science degree in Computer Science, summa cum laude, in 2010. I received a Silver Award from The American Design Awards for website design in January 2010. Thanks for visiting and checking out my work!</p>
+   		</article>
+   	</section>
+   	<section id="two">
+   		<h2>portfolio</h2>
+		<article class="video">
+		<video width="640" height="360" controls>
+  		<source src="video/demo_reel.mp4" type="video/mp4">
+		Your browser does not support the video tag.</video>
+		</article>
+		<article class="images">
+   
+    <a class="fancybox" rel="group" href="images/3d_print_3.png"><img src="images/3d_print_1.png" alt="3d print image 1" title="3d printing 1"></a>
+    <a class="fancybox" rel="group" href="images/3d_print_2.png"><img src="images/3d_print_2.png" alt="3d print image 2" title="3d printing 2"></a>
+		
+    	
+    	<img src="images/3d_print_3.png" alt="3d print image 3" title="3d printing 3">
+    	<img src="images/3d_render_1.png" alt="3d render image 1" title="3d rendering 1">
+    	<img src="images/3d_render_2.png" alt="3d render image 2" title="3d rendering 2">
+    	<img src="images/3d_render_3.png" alt="3d render image 3" title="3d rendering 3">
+   		<img src="images/3d_render_4.png" alt="3d render image 4" title="3d rendering 4">
+    	<img src="images/3d_render_5.png" alt="3d render image 5" title="3d rendering 5">
+    	<img src="images/3d_render_6.png" alt="3d render image 6" title="3d rendering 6">
+    	</article>
+    </section>
+	<section id="three">
+		<h2>stuff i know</h2>		
+		<article class="logos">
+		<img src="images/maya.jpg" width="100" alt="maya logo" title="maya logo">
+   		<img src="images/html5.jpg" width="100" alt="html5 logo" title="html5 logo">
+   		<img src="images/css.jpg" width="100" alt="css logo" title="css logo">
+   		<img src="images/photoshop.jpg" width="100" alt="photoshop logo" title="photoshop logo">
+   		<img src="images/indesign.jpg" width="100" alt="indesign logo" title="indesign logo">
+   		<img src="images/ae.jpg" width="100" alt="after effects logo" title="after effects logo">
+   		<img src="images/illustrator.jpg" width="100" alt="illustrator logo" title="illustrator logo">
+   		</article>
+	</section>
+	<footer>
+		<h2>contact</h2>
+		<p>kate lavagnino<br>
+		kate@lavagnino.us<br>
+		917.327.4592</p>
+		<a class="button1" href="#">back to top</a>
+	</footer>
+</body>
+</html>
