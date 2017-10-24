@@ -3,17 +3,14 @@
 body {
     background-color: black;
     font-size: 16px;
-}
-
-header {
-    padding: 1em;
+    margin: 0 auto;
 }
 
 #myMenu
 {
     text-align: center;
     height: 30em;
-    background-size: 100% auto;
+    background-size: cover;
     background-image: url('../images/dragon.jpg');
     background-repeat: no-repeat;
 }
@@ -97,10 +94,6 @@ nav a {
     text-align: center;
     border: white;
     width: 100px;
-}
-
-aside {    
-    padding: 1em;
 }
 
 #two_column {

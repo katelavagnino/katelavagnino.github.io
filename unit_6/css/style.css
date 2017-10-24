@@ -26,6 +26,9 @@ header {
     height: 250px;
 }
 
+#portrait {
+    height: 10%;
+}
 h1 {
     font-family: 'Archivo Black', sans-serif;
     font-weight: 900;
@@ -63,6 +66,7 @@ ul {
 video {
     display: inline-block;
     text-align: center;
+    width: 100%;
 }
 
 .images {
@@ -111,15 +115,14 @@ aside {
 }
 
 #left {
-    padding: 20px; 
+    padding: 10px; 
     float: left;
-    width: 16%;
     position: relative;
     top: -25px;
 }
 
 #right {
-    padding: 20px; 
+    padding: 10px; 
     float: right;
     width: 74%;
 }
